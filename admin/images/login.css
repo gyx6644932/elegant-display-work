@@ -1,0 +1,114 @@
+@charset "gb2312";
+* ,img ,  a img, a:hover img{
+	font-family: Arial , sans-serif,  Helvetic; 
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+    border:0 none;
+}
+td {text-align:center;}
+body {
+    text-align:center;
+	background-color: #f8fcff;
+	background-image: url(../images/b1.gif);
+	background-repeat: repeat-x;
+	background-position:0 -620px;}
+.con {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+a.fav{float:right;width:16px; height:16px;background-image:url(../images/fav.gif);background-repeat: no-repeat;}
+a.fav:hover{background-position:0px -16px;}
+.login .b_left {
+	background-image: url(../images/p1.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 377px;
+	width: 232px;
+}
+.login .b_right {
+	background-image: url(../images/p1.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 377px;
+	width: 232px;
+	background-position: -233px 0px;
+}
+.login .input {
+	height: 377px;
+	width: 336px;
+	float: left;
+	background-image: url(../images/b1.gif);
+	background-repeat: repeat-x;
+	background-position: 0px -116px;
+}
+.input-border{	
+	border:1px solid #b8b8b8;
+	width:173px;
+	line-height:20px;
+	font-size:14px;
+	height:24px;
+	padding-left: 2px;
+	padding-top:3px;
+	*padding-top:1px; 
+	padding-bottom:2px; 
+	height:24px;
+}
+.input-code{	
+	border:1px solid #b8b8b8;
+	width:100px;
+	line-height:20px;
+	font-size:14px;
+	height:24px;
+	padding-left: 2px;
+	padding-top:3px;
+	*padding-top:1px; 
+	padding-bottom:2px; 
+	height:24px;
+}
+.login-b, .login-b2, .login-b3{
+	background-image: url(../images/b2.gif);
+	height: 32px;
+	width: 82px;
+	display: block;
+	border:0;
+	background-repeat: no-repeat;
+	cursor:pointer!important;
+	cursor:hand;
+}
+.login-b2{
+	background-image: url(../images/b2.gif);
+	background-position: 0px -33px;
+}
+.login-b3{
+	background-image: url(../images/b2.gif);
+	background-position: 0px -66px;
+}
+.logTb{}
+.logTb td{
+	text-align:left;
+	padding-left:9px;
+	color:#666;
+	padding-bottom: 7px;
+	*padding-bottom: 6px;
+	padding-top: 7px;
+	*padding-top: 6px;
+}
+.logTb th{
+	text-align:right;
+	width:90px;
+	font-weight:normal;
+	line-height:14px;
+	color:#666;
+}
+.reg{
+	color:#666666;
+	height:30px;
+	line-height:30px;
+	margin-top:10px;
+	*margin-top:12px;
+}
+.reg a{color:#ba2636;text-decoration:underline;	}
+.reg a:hover{ color:#d73535;text-decoration:underline;}
